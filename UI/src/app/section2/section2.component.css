@@ -1,0 +1,31 @@
+.container{
+    margin-top: 20px;
+}
+.header{
+    text-align: center;
+    font-family: 'Lato','Arial', sans-serif;
+}
+.subheading::after{
+    display: block;
+    height: 0.2rem;
+    background-color:orange;
+    content: "";
+    width: 100px;
+    margin: 0 auto;
+    margin-top:10px;
+    margin-bottom: 50px;
+    font-family: 'Lato','Arial', sans-serif;
+}
+.subheading{
+    text-align: center;
+}
+.row{
+    margin-top: 80px;
+}
+.col-md-3{
+    font-family: 'Lato','Arial', sans-serif;
+}
+.icon{
+    color: orange;
+    font-size: 10mm;
+}

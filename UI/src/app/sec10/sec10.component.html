@@ -1,0 +1,32 @@
+<div class="row">
+    <div class="col">
+        <!-- form -->
+        <div class="container-sm"> 
+            <div class="card">
+                <div class="card-header">
+                  Featured
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">enter the details</h5>
+                  <form>
+                    <form [formGroup]="formdata"  (ngSubmit)="Onsubmit()">
+                        <div class="row">
+                          <div class="col">
+                              <label>first name</label>
+                            <input type="text" class="form-control" formControlName="firstname" placeholder="First name">
+                          </div>
+                          <div class="col">
+                              <label>lastname</label>
+                            <input type="text" class="form-control"formControlName="lastname" placeholder="Last name">
+                          </div>
+                          <div>
+                              <button class="btn btn-primary" type="submit">Submit</button>
+                          </div>
+                        </div>
+                      </form>
+                  </form>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>

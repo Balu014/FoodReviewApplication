@@ -1,0 +1,7 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,300%20italic%20font-family:%20%27Lato%27,%20%27Arial%27,%20sans-serif;');
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Lato','Arial', sans-serif;
+   
+    
+}

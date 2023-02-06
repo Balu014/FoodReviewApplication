@@ -1,0 +1,90 @@
+.container{
+    margin-top: 30px;
+}
+.heading{
+    text-align: center;
+    font-family: 'Lato','Arial', sans-serif;
+}
+.heading::after{
+    display: block;
+    height: 0.2rem;
+    background-color:orange;
+    content: "";
+    width: 100px;
+    margin: 0 auto;
+    margin-top:10px;
+    margin-bottom: 100px;
+}
+.h2{
+    font-size: 100px;
+}
+.row{
+    margin-top: 20px;
+}
+.city1{
+    background-image: url("/assets/images/lisbon-3.jpg");
+    background-size: 280px;
+    height: 175px;
+    margin-right: 30px;
+}
+.city2{
+    background-image: url("/assets/images/san-francisco.jpg");
+    background-size: 280px;
+    height: 175px;
+    margin-right: 30px;
+}
+.city3{
+    background-image: url("/assets/images/berlin.jpg");
+    background-size: 280px;
+    height: 175px;
+    margin-right: 30px;
+}
+.city4{
+    background-image: url("/assets/images/london.jpg");
+    background-size: 280px;
+    height: 175px; 
+}
+h4{
+    font-family: 'Lato', 'Arial', sans-serif;
+   font-size: 5mm;
+   color: rgb(146, 141, 141);
+}
+.text{
+    color: rgb(146, 141, 141);
+    margin-top: 10px;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 5mm;
+    
+}
+a{
+    color: orange;
+}
+.info1{
+    width: 262px;
+    height: 175px;
+    margin-right: 30px;
+    font-family: 'Lato','Arial', sans-serif;
+}
+.info2{
+    width: 262px;
+    height: 175px;
+    margin-right: 30px;
+    font-family: 'Lato','Arial', sans-serif;
+}
+.info3{
+    width: 262px;
+    height: 175px;
+    margin-right: 30px;
+    font-family: 'Lato','Arial', sans-serif;
+}
+.info4{
+    width: 262px;
+    height: 175px;
+    font-family: 'Lato','Arial', sans-serif;
+}
+i{
+    color: orange;
+}
+.user{
+    margin-right: 10px;
+}

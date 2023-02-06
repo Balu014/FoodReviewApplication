@@ -1,0 +1,21 @@
+.hero{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("/assets/images/hero.jpg");
+    height: 500px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.header{
+    padding-top: 220px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    color: white;  
+}
+
+
+button{
+    border-radius: 20px;
+    padding:5px 20px 5px 20px;
+    margin-right: 20px;
+}

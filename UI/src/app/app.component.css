@@ -1,0 +1,6 @@
+.bg-img{
+    background-image: url('../assets/images/todo-back.jpg') !important;
+    background-size: 100% !important;
+    padding: auto !important;
+    padding-bottom: 300px !important;
+}

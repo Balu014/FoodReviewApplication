@@ -1,0 +1,85 @@
+.main{
+    margin-top: 30px;
+    padding-top: 10px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("/assets/images/back-customers.jpg");
+    height: 500px;
+    width: auto;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+.heading1{
+    margin-top:40px;
+    text-align: center;
+    color:white;
+    font-family: 'Lato','Arial', sans-serif;
+    
+}
+.heading1::after{
+    display: block;
+    height: 0.2rem;
+    background-color:orange;
+    content: "";
+    width: 100px;
+    margin: 0 auto;
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+
+.heading{
+    padding-top:40px;
+    text-align:right;
+    margin-right: 150px;
+}
+.heading::after{
+    display: block;
+    height: 0.2rem;
+    background-color:orange;
+    content: "";
+    width: 100px;
+    margin: 0 auto;
+    margin-top:10px;
+    margin-bottom: 100px;
+    margin-left: 830px;
+}
+.form-group{
+    width: 650px;
+    margin-left: 500px;
+}
+.button1{
+    border-radius: 20px;
+    padding:5px 20px 5px 20px;
+    margin-left: 100px;
+}
+.input-section{
+    width: 400px;
+    height: 40px;
+}
+.label-section{
+    font-size: 19px;
+    width: 100px;
+}
+.table{
+    color: white;
+    border: none;
+}
+.sec{
+    display: flex;
+   margin-right: 30px;
+   margin-left: 30px;
+}
+.card{
+    width: 400px;
+    height: 200px;
+    background: linear-gradient(
+        rgba(0,0,0,0),
+        rgba(0,0,0,0)
+    );
+    color: white;
+    font-style: italic;
+    font-size:medium;
+    margin-right: 30px;
+    border: none;
+}
+.rounded-circle{
+    margin-right: 20px;
+}
